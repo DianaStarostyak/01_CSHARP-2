@@ -33,8 +33,9 @@ Console.WriteLine(max);
 max = array[0];
 foreach(int e in array)
 {
-    if (array[e] > max)
+    if (e > max)
     {
-        max = array[e];
+        max = e;
     }
 }
+Console.WriteLine(max);
